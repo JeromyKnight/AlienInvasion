@@ -11,7 +11,7 @@ class Settings:
         """
         # Screen settings
         self.screen_width = 600
-        self.screen_height = 800
+        self.screen_height = 900
         self.bg_color = (50, 50, 150)
 
         # Ship settings
@@ -58,6 +58,7 @@ class Settings:
         self.bullet_speed *= self.speedup_scale
         self.alien_speed *= self.speedup_scale
         self.alien_points = int(self.alien_points * self.score_scale)
+        # print(self.alien_points)
 
 
         

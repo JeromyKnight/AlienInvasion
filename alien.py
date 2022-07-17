@@ -10,7 +10,7 @@ class Alien(Sprite):
         Initialize the alien and set its starting position.
         """
         super().__init__()
-        self.screen = ai_game.screen
+        self.screen = ai_game.screen 
         self.settings = ai_game.settings
 
         # Load the alien image and set its rect attribute.
